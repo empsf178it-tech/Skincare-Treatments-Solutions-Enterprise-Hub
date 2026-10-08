@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Hub & Team Seats | DERMALINK</title>
+  <meta name="description" content="Manage multi-team access, role permissions, organization profiles, and team seats on DERMALINK Enterprise Platform.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- CSS Dependencies -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="enterprise-navbar">
+    <div class="container-enterprise d-flex justify-content-between align-items-center py-3">
+      <a href="index.html" class="navbar-brand-custom">
+        <div class="brand-icon"><i class="fa-solid fa-dna"></i></div>
+        <span>DERMALINK</span>
+      </a>
+
+      <nav class="desktop-nav-menu d-flex align-items-center gap-1">
+        <a href="index.html" class="nav-link-custom">Home</a>
+        <a href="about.html" class="nav-link-custom">About</a>
+        <a href="solutions.html" class="nav-link-custom">Solutions</a>
+        <a href="treatments.html" class="nav-link-custom">Treatments</a>
+        <a href="partners.html" class="nav-link-custom">Partners</a>
+        <a href="enterprise.html" class="nav-link-custom active">Enterprise</a>
+      </nav>
+
+      <div class="desktop-nav-menu auth-btn-area d-flex align-items-center me-2">
+        <a href="contact.html" class="btn-enterprise-primary ms-2">Contact Sales</a>
+      </div>
+
+      <button class="mobile-nav-toggle" aria-label="Open Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <div class="mobile-menu-drawer">
+    <div class="mobile-menu-header">
+      <a href="index.html" class="navbar-brand-custom">
+        <div class="brand-icon"><i class="fa-solid fa-dna"></i></div>
+        <span>DERMALINK</span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="mobile-menu-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="treatments.html">Treatments</a>
+      <a href="partners.html">Partners</a>
+      <a href="enterprise.html" class="active">Enterprise</a>
+      <a href="contact.html" class="btn-enterprise-primary w-100 text-center mt-3">Contact Sales</a>
+    </div>
+  </div>
+
+  <!-- HERO HEADER -->
+  <section class="section-padding-sm bg-white border-bottom position-relative overflow-hidden">
+    <div class="ambient-orb ambient-orb-1"></div>
+    <div class="container-enterprise position-relative" style="z-index: 2;">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7 reveal-left">
+          <span class="badge-tag mb-3">Multi-Seat Team Governance</span>
+          <h1 class="heading-xl mb-3">BUILT FOR ENTERPRISE TEAMS</h1>
+          <p class="subheading mb-4">
+            Manage organizational seats, granular RBAC access controls, sponsorship deal pipelines, and multi-clinic collaboration with enterprise compliance.
+          </p>
+          <a href="#seat-manager" class="btn-enterprise-primary">Manage Team Seats <i class="fa-solid fa-users-gear me-1"></i></a>
+        </div>
+        <div class="col-lg-5 reveal-right">
+          <div class="rounded-3 overflow-hidden shadow-md">
+            <img src="assets/images/33.jpg" alt="Clinical Leadership Strategy Team" class="img-fluid w-100" style="height: 250px; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENTERPRISE FEATURES GRID -->
+  <section class="section-padding">
+    <div class="container-enterprise">
+      <div class="text-center mb-5 reveal">
+        <span class="badge-tag">Governance Features</span>
+        <h2 class="heading-lg mt-2 mb-3">ENTERPRISE PLATFORM CAPABILITIES</h2>
+        <p class="subheading mx-auto">Designed for health systems, multi-location clinics, and skincare corporate teams.</p>
+      </div>
+
+      <div class="row g-4 mb-5">
+        <div class="col-md-4 reveal">
+          <div class="p-4 bg-white border rounded-3 h-100 shadow-sm">
+            <div class="brand-icon mb-3"><i class="fa-solid fa-user-shield"></i></div>
+            <h5 class="fw-bold text-dark">Role-Based Access Control (RBAC)</h5>
+            <p class="text-muted small mb-0">Assign Admin, Manager, Partner Manager, Analyst, and Viewer roles with granular permission scoping.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="p-4 bg-white border rounded-3 h-100 shadow-sm">
+            <div class="brand-icon mb-3"><i class="fa-solid fa-sitemap"></i></div>
+            <h5 class="fw-bold text-dark">Multi-Clinic Organization Profiles</h5>
+            <p class="text-muted small mb-0">Consolidate multiple practice locations, provider credentials, and treatment suites under one corporate umbrella.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="p-4 bg-white border rounded-3 h-100 shadow-sm">
+            <div class="brand-icon mb-3"><i class="fa-solid fa-filter-circle-dollar"></i></div>
+            <h5 class="fw-bold text-dark">Sponsorship Deal Pipeline</h5>
+            <p class="text-muted small mb-0">Track active brand sponsorships, equipment leases, milestone payments, and contract renewals in real time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE TEAM SEATS MANAGER -->
+  <section id="seat-manager" class="section-padding bg-white border-top border-bottom">
+    <div class="container-enterprise">
+      <div class="bg-light p-4 p-md-5 rounded-3 border shadow-sm">
+        
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-4">
+          <div>
+            <span class="badge bg-primary text-white mb-1">ENTERPRISE TEAM PLAN</span>
+            <h3 class="heading-md text-dark mb-1" id="seatCountHeading">8 / 12 SEATS USED</h3>
+            <p class="text-muted small mb-0">Manage active team seats, edit roles, or add new corporate team members.</p>
+          </div>
+
+          <button class="btn-enterprise-primary" data-bs-toggle="modal" data-bs-target="#addMemberModal">
+            <i class="fa-solid fa-user-plus me-1"></i> Add Team Member
+          </button>
+        </div>
+
+        <!-- SEAT CAPACITY PROGRESS BAR -->
+        <div class="progress mb-4" style="height: 10px; background-color: var(--border);">
+          <div id="seatProgressBar" class="progress-bar bg-primary" role="progressbar" style="width: 66%;"></div>
+        </div>
+
+        <!-- TEAM MEMBERS TABLE -->
+        <div class="table-responsive">
+          <table class="table-enterprise">
+            <thead>
+              <tr>
+                <th>Member Name</th>
+                <th>Work Email</th>
+                <th>Assigned Role</th>
+                <th>Status</th>
+                <th>Joined Date</th>
+                <th class="text-end">Action</th>
+              </tr>
+            </thead>
+            <tbody id="teamMembersTableBody">
+              <!-- Rendered dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADD MEMBER MODAL -->
+  <div class="modal fade modal-enterprise" id="addMemberModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><i class="fa-solid fa-user-plus me-2 text-primary"></i>Add Enterprise Team Member</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form id="addMemberForm">
+          <div class="modal-body p-4">
+            <div class="mb-3">
+              <label class="form-label-enterprise">Full Name</label>
+              <input type="text" id="newMemName" class="form-control-enterprise" required placeholder="e.g. Dr. Sarah Johnson">
+            </div>
+            <div class="mb-3">
+              <label class="form-label-enterprise">Work Email</label>
+              <input type="email" id="newMemEmail" class="form-control-enterprise" required placeholder="e.g. s.johnson@enterprise-health.com">
+            </div>
+            <div class="mb-3">
+              <label class="form-label-enterprise">Enterprise Role</label>
+              <select id="newMemRole" class="form-control-enterprise form-select">
+                <option value="Admin">Admin (Full Control)</option>
+                <option value="Manager">Manager (Operations)</option>
+                <option value="Partner Manager">Partner Manager (Sponsorships)</option>
+                <option value="Analyst">Analyst (Read & Reporting)</option>
+                <option value="Viewer">Viewer (Read-Only)</option>
+              </select>
+            </div>
+          </div>
+          <div class="modal-footer bg-light">
+            <button type="button" class="btn-enterprise-outline" data-bs-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn-enterprise-primary">Add Member to Seat</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer-enterprise">
+    <div class="container-enterprise">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="navbar-brand-custom text-white mb-3 d-inline-flex">
+            <div class="brand-icon"><i class="fa-solid fa-dna"></i></div>
+            <span>DERMALINK</span>
+          </a>
+          <p class="text-white-50 small pe-lg-4 mb-3">
+            Enterprise solutions for modern skin health. Connecting treatment providers, technology developers, research institutions, and corporate sponsors worldwide.
+          </p>
+          <div class="footer-social-icons mb-4 mb-lg-0">
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="LinkedIn" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Twitter X" title="Twitter X">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Facebook" title="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Instagram" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="YouTube" title="YouTube">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h6 class="fw-bold text-white mb-3">Platform</h6>
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="solutions.html" class="footer-link">Solutions Overview</a>
+          <a href="treatments.html" class="footer-link">Treatment Directory</a>
+        </div>
+        <div>
+          <h6 class="fw-bold text-white mb-3">Enterprise</h6>
+          <a href="partners.html" class="footer-link">Partner Network</a>
+          <a href="enterprise.html" class="footer-link">Enterprise Plans</a>
+          <a href="contact.html" class="footer-link">Contact Sales</a>
+        </div>
+        <div>
+          <h6 class="fw-bold text-white mb-3">Enterprise Contact</h6>
+          <p class="text-white-50 small mb-2"><i class="fa-solid fa-location-dot me-2 text-accent"></i> 500 Medical Plaza Suite 800, Boston, MA</p>
+          <p class="text-white-50 small mb-2"><i class="fa-solid fa-envelope me-2 text-accent"></i> enterprise@dermalink-health.com</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center pt-4 border-top border-secondary text-white-50 small">
+        <div>&copy; 2026 DERMALINK Health Technology Inc. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      renderTeamSeats();
+      initAddMemberForm();
+    });
+
+    function renderTeamSeats() {
+      const team = JSON.parse(localStorage.getItem("DERMALINK_TEAM") || "[]");
+      const maxSeats = parseInt(localStorage.getItem("DERMALINK_MAX_SEATS") || "12", 10);
+      
+      const countHeading = document.getElementById("seatCountHeading");
+      const progressBar = document.getElementById("seatProgressBar");
+      const tbody = document.getElementById("teamMembersTableBody");
+
+      countHeading.innerText = `TEAM PLAN: ${team.length} / ${maxSeats} SEATS USED`;
+      const pct = Math.round((team.length / maxSeats) * 100);
+      progressBar.style.width = `${pct}%`;
+
+      tbody.innerHTML = team.map(item => `
+        <tr>
+          <td>
+            <div class="fw-bold text-dark">${item.name}</div>
+          </td>
+          <td class="text-muted small">${item.email}</td>
+          <td>
+            <select onchange="updateMemberRole('${item.id}', this.value)" class="form-select form-select-sm border-secondary text-dark fw-semibold" style="width: 150px;">
+              <option value="Admin" ${item.role === 'Admin' ? 'selected' : ''}>Admin</option>
+              <option value="Manager" ${item.role === 'Manager' ? 'selected' : ''}>Manager</option>
+              <option value="Partner Manager" ${item.role === 'Partner Manager' ? 'selected' : ''}>Partner Manager</option>
+              <option value="Analyst" ${item.role === 'Analyst' ? 'selected' : ''}>Analyst</option>
+              <option value="Viewer" ${item.role === 'Viewer' ? 'selected' : ''}>Viewer</option>
+            </select>
+          </td>
+          <td><span class="badge bg-success-subtle text-success border border-success fw-bold">${item.status}</span></td>
+          <td class="text-muted small">${item.joined}</td>
+          <td class="text-end">
+            <button onclick="removeMember('${item.id}')" class="btn btn-sm btn-outline-danger" title="Remove Member">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    function initAddMemberForm() {
+      document.getElementById("addMemberForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const team = JSON.parse(localStorage.getItem("DERMALINK_TEAM") || "[]");
+        const maxSeats = parseInt(localStorage.getItem("DERMALINK_MAX_SEATS") || "12", 10);
+
+        if (team.length >= maxSeats) {
+          showToast("Seat capacity limit reached! Upgrade plan to add more seats.", "danger");
+          return;
+        }
+
+        const name = document.getElementById("newMemName").value;
+        const email = document.getElementById("newMemEmail").value;
+        const role = document.getElementById("newMemRole").value;
+
+        const newMember = {
+          id: "mem-" + Date.now(),
+          name,
+          email,
+          role,
+          status: "Active",
+          joined: new Date().toISOString().split('T')[0]
+        };
+
+        team.push(newMember);
+        localStorage.setItem("DERMALINK_TEAM", JSON.stringify(team));
+
+        const modalEl = document.getElementById("addMemberModal");
+        const bsModal = bootstrap.Modal.getInstance(modalEl);
+        if (bsModal) bsModal.hide();
+
+        document.getElementById("addMemberForm").reset();
+        renderTeamSeats();
+        showToast(`${name} added to enterprise team successfully.`, "success");
+      });
+    }
+
+    function updateMemberRole(id, newRole) {
+      let team = JSON.parse(localStorage.getItem("DERMALINK_TEAM") || "[]");
+      const member = team.find(m => m.id === id);
+      if (member) {
+        member.role = newRole;
+        localStorage.setItem("DERMALINK_TEAM", JSON.stringify(team));
+        showToast(`Role updated to ${newRole} for ${member.name}.`, "success");
+      }
+    }
+
+    function removeMember(id) {
+      if (!confirm("Are you sure you want to remove this team member?")) return;
+      let team = JSON.parse(localStorage.getItem("DERMALINK_TEAM") || "[]");
+      team = team.filter(m => m.id !== id);
+      localStorage.setItem("DERMALINK_TEAM", JSON.stringify(team));
+      renderTeamSeats();
+      showToast("Team member removed.", "info");
+    }
+  </script>
+</body>
+</html>
